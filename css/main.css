@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+#sentaku {
+    font-size: 30px;
+    color:red;
+}
+
+h2{
+    text-align: center;
+    background-color: aliceblue;
+    /* background-size: 50%; */
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    color: rgba(46, 144, 0, 0.712);
+}

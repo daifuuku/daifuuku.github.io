@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="anthor" content="Rina Watanabe">
+    <meta name="keywords" content="HTML,CSS,Javascript">
+    <title>コンピュータ・リテラシーⅡ：課題1</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+  <header id="top">
+    <div>
+        <h2>
+            日本について
+        </h2>
+
+
+    </div>
+
+    <li><a href="http://127.0.0.1:3000/サンプルコード (1)/kadai4/index2.html" target="_blank">食べ物の紹介</a></li>
+
+   
+    <div>
+        <h3>2023年人口推計（日本)</h3>
+       
+          <div>
+            <canvas id="myChart"></canvas>
+          </div>
+
+          <div>
+            <canvas id="myChart2"></canvas>
+          </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.js" integrity="sha512-5m2r+g00HDHnhXQDbRLAfZBwPpPCaK+wPLV6lm8VQ+09ilGdHfXV7IVyKPkLOTfi4vTTUVJnz7ELs7cA87/GMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!--自分のjavascriptファイル -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/chart.js"></script>
+
+
+    
+    <div>
+        <h3>日本の総人口</h3>
+        <h4>2023年7月現在の人口推定 1億2456万人</h4>
+        <p>出典：総務省統計局ホームページ（https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200524&tstat=000000090001&cycle=1&year=20230&month=23070907&tclass1=000001011678）</p>
+
+    </div>
+    
+    <div>
+        <h4>では、日本の労働人口は総人口の約何％でしょうか？</h4>
+
+        <button type="button" onclick="sentaku(1)">63％</button>
+        <button type="button" onclick="sentaku(2)">59％</button>
+        <button type="button" onclick="sentaku(3)">45％</button>
+        <button type="button" onclick="sentaku(4)">37％</button>
+
+        <h4>回答<p id="sentaku">……</p></h4>
+
+
+    </div>
+
+    <script src="./js/sentaku.js"></script>
+
+    <div>
+        <h4>100歳以上の人口はどのくらいでしょうか？</h4>
+
+        <button type="button" onclick="action()">答えを隠す（もう一度押すと表示）</button>
+
+        <p id="action-p-1">88000人</p>
+
+    </div>
+
+
+    
+
+    <a href="#top"><p><span>ページのトップへ</span></p></a>
+</body>
+</html>
